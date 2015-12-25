@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+      <title>Shekhar | s-hacker</title>
+      <link rel = "stylesheet" type = "text/css" 
+         href = "http://fonts.googleapis.com/css?family=Lato:300,400,700" />
+			
+      <link rel = "stylesheet" type = "text/css" 
+         href = "css/jquery.pagepiling.css" />
+			
+      <link rel = "stylesheet" type = "text/css" 
+         href = "css/examples.css" />
+
+      <link rel = "stylesheet" type = "text/css" 
+         href = "css/reset_aniline.css" />
+
+      <link rel = "stylesheet" type = "text/css" 
+         href = "css/style_aniline.css" />
+
+    <script type="text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+      <script type = "text/javascript" 
+         src = "js/jquery.pagepiling.min.js"></script>
+
+     
+
+      <script src="js/modernizr_aniline.js"></script> 
+      <script src="js/main_aniline.js"></script> 
+ 
+		
+      <script type = "text/javascript">
+         $(document).ready(function() {
+			
+            $('#pagepiling').pagepiling({
+               direction: 'horizontal',
+               menu: '#menu',
+               anchors: [ 'page2', 'page3', 'page4', 'page5', 'page6'],
+               sectionsColor: ['rgb(44, 62, 80)', 'rgb(44, 62, 80)', '#2C3E50', '#51bec4', '#2C3E50', '#2C3E50'],
+					
+               navigation: {
+                  'position': 'right',
+                  'tooltips': ['Page 2', 'Page 3', 'Page 4', 'Page 5', 'Page 6']
+               }
+					
+               // afterRender: function(){
+               //    //playing the video
+               //    $('video').get(0).play();
+               // }
+            });
+				
+         });
+      </script>
+
+      <style>
+    	
+         .section {
+            text-align:left;
+            
+
+         }
+
+         /*#myVideo {
+            position: absolute;
+            z-index: 4;
+            right: 0;
+				
+            bottom: 0;
+            top:0;
+            right:0;
+            width: 100%;
+            height: 100%;
+				
+            background-size: 100% 100%;
+            background-color: white; /* in case the video doesn't fit the whole page
+            background-image:/* our video;
+            background-position: center center;
+            background-size: contain;
+            object-fit: cover; /*cover video background 
+         }
+*/
+		
+         #section1 .layer {
+            position: absolute;
+            z-index: 5;
+            width: 100%;
+            left: 0;
+            top: 43%;
+            height: 100%;
+         }
+
+         #section1 h1 {
+            color:#fff;
+         }
+
+         #infoMenu li a {
+            color: #fff;
+         }
+
+      </style>
+   </head>
+	
+   <body>
+	
+      <ul id = "menu">
+         <!-- <li data-menuanchor = "page1" class = "active">
+            <a href = "#page1">Page 1</a></li> -->
+         <li data-menuanchor = "page2"><a href = "#page2">
+            About</a></li>
+         <li data-menuanchor = "page3"><a href = "#page3">
+            Page 3</a></li>
+            <li data-menuanchor = "page4">
+            <a href = "#page4">Page 4</a></li>
+         <li data-menuanchor = "page5"><a href = "#page5">
+            Page 5</a></li>
+         <li data-menuanchor = "page6"><a href = "#page6">
+            Page 6</a></li>
+      </ul>
+
+      <div id = "pagepiling">
+		
+         <div class = "section" id = "section1">
+			
+         
+             <div class = "intro" >
+               <h4 style="color:black;" class="cd-headline letters scale">Hello world ! <br>This is  <span class="cd-words-wrapper"> <b class="is-visible"> Shekhar </b>
+            <b> Prasad </b>
+            <b> Rajak </b></span>,pursuing B.Tech (2013-17 expected)<br>Computer Science and
+Engineering, National Institute of technology,
+Warangal. <br></h4>
+<h4 style="color:black;display:block;" class="cd-headline clip is-full-width">I have keen interest in 
+<span class="cd-words-wrapper">
+<b class="is-visible">Computers </b><b> Web developing </b>
+<b>Web desinging </b><b>Apps developing </b>
+<b>Ethical hacking </b> <b> Game Developing </b> </span><br>and yeah I love facebook. </h4>
+           
+           
+   </div> 
+               
+            </div>
+               
+          
+          
+          <!--   <video autoplay loop muted id = "myVideo">
+               <source src = "vdo/11.mp4" type = "video/mp4">
+                <h1>No limits</h1>
+               <p>Anything is possible with Tutorialspoint</p>
+                <source src = "1.webm" type = "video/webm"> 
+
+
+            </video> -->
+      
+			
+         </div> 
+			
+         <div class = "section" id = "section2">
+			
+            <div class = "intro">
+               <h6>Hello world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6>
+               
+            </div>
+			
+         </div>
+			
+         <div class = "section" id = "section3">
+			
+            <div class = "intro">
+               <h1>3</h1>
+               <p>Simple Easy Learning</p>
+            </div>
+				
+         </div>
+         <div class = "section" id = "section4">
+         
+            <div class = "intro">
+               <h1>4</h1>
+               <p>Simple Easy Learning</p>
+            </div>
+            
+         </div>
+         <div class = "section" id = "section5">
+         
+            <div class = "intro">
+               <h1>5</h1>
+               <p>Simple Easy Learning</p>
+            </div>
+            
+         </div>
+         <div class = "section" id = "section6">
+         
+            <div class = "intro">
+               <h1>6</h1>
+               <p>Simple Easy Learning</p>
+            </div>
+            
+         </div>
+			
+      </div>
+
+   </body>
+	
+</html>
