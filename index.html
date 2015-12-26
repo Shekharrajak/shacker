@@ -22,14 +22,23 @@
       <link rel = "stylesheet" type = "text/css" 
          href = "css/style_aniline.css" />
 
+      <link rel="stylesheet" type="text/css" href="css/tab/demo.css">
+      <link rel="stylesheet" type="text/css" href="css/tab/tabs.css">
+      <link rel="stylesheet" type="text/css" href="css/tab/tabstyles.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.js">
+
          
 
-    <script type="text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+   <script type="text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-      <script type = "text/javascript" 
+   <script type = "text/javascript" 
          src = "js/jquery.pagepiling.min.js"></script>
    <script src="js/modernizr_aniline.js"></script> 
-      <script src="js/main_aniline.js"></script> 
+   <script src="js/main_aniline.js"></script> 
+
+   <script src="js/tab/cbpFWTabs.js"></script> 
+   <script src="js/tab/modernizr.custom.js"></script> 
+   <script type="text/javascript" src="bootstrap.min.js"></script>
  
 		
       <script type = "text/javascript">
@@ -142,7 +151,7 @@
             <li data-menuanchor = "page4">
             <a href = "#page4">Achievements ~</a></li>
          <li data-menuanchor = "page5"><a href = "#page5">
-            Seminars/Workshops/Other ~</a></li>
+            Attended Seminars/Workshops/Other ~</a></li>
          <li data-menuanchor = "page6"><a href = "#page6">
             Contact Shacker ~</a></li>
       </ul>
@@ -187,11 +196,31 @@ Warangal. <br></h4>
 			
          <div class = "section" id = "section2">
 			
-            <div class = "intro"> 
+            <!-- <div class = "intro"> 
                <h6>Hello world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6>
                
-            </div>
-            <!-- Portfolio Grid Section -->
+            </div> -->
+            
+            <div style="margin-top:-250px;">
+            <div class="tabs tabs-style-underline">
+               <nav>
+                  <ul>
+                     <li><a href="#section-underline-1" ><span>Open Source Contribution</span></a></li>
+                     <li><a href="#section-underline-2" ><span>Internship</span></a></li>
+                     <li><a href="#section-underline-3" ><span>Projects</span></a></li>
+                     <li><a href="#section-underline-4" ><span>Others</span></a></li>
+                     <!-- <li><a href="#section-underline-5" class="icon icon-config"><span>Settings</span></a></li> -->
+                  </ul>
+               </nav>
+               <div class="content-wrap">
+                  <section id="section-underline-1"> <h6>Hello1 world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6></section>
+                  <section id="section-underline-2"> <h6>Hello 2world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6></section>
+                  <section id="section-underline-3"> <h6>Hello 3world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6></section>
+                  <section id="section-underline-4"> <h6>Hello 4world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6></section>
+                  <section id="section-underline-5"> <h6>Hello 5world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6></section>
+               </div><!-- /content -->
+            </div><!-- /tabs -->
+         </div>
                
 			
          </div>
@@ -232,7 +261,15 @@ Warangal. <br></h4>
       </div>
 
 
+<script>
+         (function() {
 
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+               new CBPFWTabs( el );
+            });
+
+         })();
+</script>
 
 
        
