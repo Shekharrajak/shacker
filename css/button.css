@@ -69,7 +69,8 @@
   position: relative;
   overflow: hidden;
 
-  opacity: 1.5;
+  opacity: 1.0;
+
 
 }
 
@@ -139,12 +140,18 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #e1e1e1;
+  /*background: #e1e1e1*/;
+  color: #FFF;
+
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+
+  /*border-style: solid;
+  border-width: 0;*/
+}  
 .hvr-shutter-out-vertical:before {
   content: "";
   position: absolute;
@@ -153,7 +160,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098d1;
+  background: #8BC8DA;
+  color: #FFF;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;
@@ -166,18 +174,21 @@
   transition-timing-function: ease-out;
 }
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
-  color: white;
+  color: #FFF;
+  
 }
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+  color: #FFF;
 }
 
 
 /* my */
 .list{
 
-  background-color:#2C3E50;border-color:#324A65;
+  background-color:#2C3E50;
+  border-color:#324A65;
 }
 
 /*.list:hover{
@@ -192,4 +203,8 @@
 
   color: black;
   opacity: 1;
+}
+
+.menuhover:{
+  color: #FFF;
 }
