@@ -25,11 +25,19 @@
       <link rel="stylesheet" type="text/css" href="css/tab/demo.css">
       <link rel="stylesheet" type="text/css" href="css/tab/tabs.css">
       <link rel="stylesheet" type="text/css" href="css/tab/tabstyles.css">
-      <link rel="stylesheet" type="text/css" href="bootstrap.min.js">
+      <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+     <!-- <script src="js/jquery.min.js"></script> 
+    // <script src="js/bootstrap.min.js"></script>  -->
+   <!--  // <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 
       <link rel="stylesheet" type="text/css" href="css/hover/demo.css" />
       <link rel="stylesheet" type="text/css" href="css/hover/set1.css" />
       <link rel="stylesheet" type="text/css" href="css/button.css" />
+
+     <!--  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
 
          
 
@@ -55,7 +63,7 @@
                direction: 'horizontal',
                menu: '#menu',
                anchors: [ 'page2', 'page3', 'page4', 'page5', 'page6'],
-               sectionsColor: ['rgb(44, 62, 80)', '#2C3E50', '#51bec4', '#2C3E50', '#2C3E50'],
+               sectionsColor: ['rgb(44, 62, 80)', '#2C3E50', '#2C3E50', '#2C3E50', '#2C3E50'],
 					
                navigation: {
                   'position': 'right',
@@ -148,7 +156,7 @@
       <ul id = "menu">
          <!-- <li data-menuanchor = "page1" class = "active">
             <a href = "#page1">Page 1</a></li> -->
-         <li data-menuanchor = "page2"><a href = "#page2">
+         <li data-menuanchor = "page2" class="hvr-shutter-out-vertical"><a href = "#page2">
             About ~</a></li>
          <li data-menuanchor = "page3"><a href = "#page3">
             My works ~</a></li>
@@ -158,6 +166,11 @@
             Attended Seminars/Workshops/Other ~</a></li>
          <li data-menuanchor = "page6"><a href = "#page6">
             Contact Shacker ~</a></li>
+         <li style="background:none;text-align:right;margin-left:9%;"><a href="#" class="hvr-underline-from-center">
+                <button type="button" class="btn btn-default btn-sm mark_color">
+          <span class="glyphicon glyphicon-copyright-mark"></span> <span style="margin-top:0px;">Site manage by Shekhar Prasad Rajak
+          </span></button>
+         </a></li>
       </ul>
 
       <div id = "pagepiling">
@@ -200,13 +213,8 @@ Warangal. <br></h4>
 			
          <div class = "section" id = "section2">
 			
-             <div class = "intro"> 
-               
-               
-               
-            </div> 
          
-         <div style="margin-top:-250px;position:fixed;width:100%;height:100%;">
+         <div style="margin-top:-270px;position:fixed;width:100%;height:100%;">
             <div class="tabs tabs-style-underline">
                <a href="works.html" class="btn btn-default hvr-bounce-to-top">Link to full detail page</a>
                <nav>
@@ -215,8 +223,10 @@ Warangal. <br></h4>
                      <li><a href="#section-underline-2" ><span>Internship</span></a></li>
                      <li><a href="#section-underline-3" ><span>Projects</span></a></li>
                      <li><a href="#section-underline-4" ><span>Others</span></a></li>
-                     <!-- <li><a href="#section-underline-5" class="icon icon-config"><span>Settings</span></a></li> -->
+                     <!-- <li><a href="#section-underline-5" class="icon icon-config"><span>copyright</span></a></li>  -->
                   </ul>
+                  
+                  
                </nav>
                <div class="content-wrap">
                   <section id="section-underline-1"> 
@@ -243,6 +253,11 @@ Warangal. <br></h4>
                   </section>
                   
                   <section id="section-underline-2"> <h6>Hello 2world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6>
+                  <p>Copyright-mark icon on a button:
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-copyright-mark"></span> Copyright
+        </button>
+      </p>
                   </section>
                   
                   <section id="section-underline-3"> <h6>Hello 3world ! This is </h6><h5>Shekhar Prasad Rajak</h5><h6> </h6>
@@ -262,26 +277,90 @@ Warangal. <br></h4>
 			
          <div class = "section" id = "section3">
 			
-            <div class = "intro">
-               <h1>3</h1>
-               <p>Simple Easy Learning</p>
-            </div>
-				
+            <!-- <div class = "intro"> -->
+              <div class="row">
+                  <div class="col-xs-6 col-xs-6">
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block list">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+
+                  </div>
+                  <div class="col-xs-6 col-xs-6">
+
+                  </div>
+               </div>
+<!-- <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button> -->
+          <!--   </div>
+ -->				
          </div>
          <div class = "section" id = "section4">
          
-            <div class = "intro">
+            <!-- <div class = "intro">
                <h1>4</h1>
                <p>Simple Easy Learning</p>
-            </div>
+            </div> -->
+            <div class="row">
+                  <div class="col-xs-6 col-xs-6">
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+
+
+                  </div>
+                  <div class="col-xs-6 col-xs-6">
+
+                  </div>
+               </div>
             
          </div>
          <div class = "section" id = "section5">
          
-            <div class = "intro">
+            <!-- <div class = "intro">
                <h1>5</h1>
                <p>Simple Easy Learning</p>
-            </div>
+            </div> -->
+            <div class="row">
+                  <div class="col-xs-6 col-xs-6">
+                     <button type="button" class="btn btn-primary btn-sm btn-block" style="background-color:none;border-color:#324A65;">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+                     <button type="button" class="btn btn-primary btn-sm btn-block">Block level button</button>
+
+
+                  </div>
+                  <div class="col-xs-6 col-xs-6">
+
+                  </div>
+               </div>
             
          </div>
          <div class = "section" id = "section6">

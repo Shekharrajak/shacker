@@ -75,8 +75,8 @@ p{
 #menu li {
 	display:inline-block;
 	margin: 10px;
+	margin-top: -20px;
 	color: #000;
-	background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
             border-radius: 10px;
@@ -89,6 +89,7 @@ p{
 #menu li a{
 	text-decoration:none;
 	color: #000;
+	font-weight: 700;
 }
 #menu li.active a:hover{
 	color: #000;
@@ -99,7 +100,7 @@ p{
 #menu li a,
 #menu li.active a{
 	padding: 9px 18px;
-	display:block;
+	/*display:block;*/
 }
 #menu li.active a{
 	color: #fff;
@@ -108,7 +109,7 @@ p{
 	position:fixed;
 	top:0;
 	left:0;
-	height: 40px;
+	height: 10px;
 	z-index: 70;
 	width: 100%;
 	padding: 0;
@@ -276,8 +277,8 @@ p{
 #section2 p{
 	z-index: 3;
 }
-#section2 p{
-	opacity: 0.8;
+#section2 {
+	opacity: 1;
 }
 
 #section2 #colors{
@@ -286,7 +287,7 @@ p{
 	position: absolute;
 	height: 413px;
 	width: 258px;
-	background-image: url(imgs/colors.gif);
+	/*background-image: url(imgs/colors.gif);*/
 	background-repeat: no-repeat;
 }
 
@@ -300,7 +301,7 @@ p{
 	color: #757575;
 }
 
-#colors2,
+/*#colors2,
 #colors3{
 	position: absolute;
 	height: 163px;
@@ -318,7 +319,7 @@ p{
 #colors3{
 	background-image: url(imgs/colors3.gif);
 	bottom:0;
-}
+}*/
 
 /* Section 4
  * --------------------------------------- */
