@@ -341,3 +341,22 @@ p{
 #pp-nav.custom .pp-tooltip{
 	color: #AAA;
 }
+
+
+.sociallink {
+
+	
+	margin: 0px 0px 10px 0px;
+}
+.sociallink li{
+
+	display:inline-block;
+	padding: 0px 0px 0px 0px;
+}
+.sociallink li a{
+	text-decoration:none;
+	/*color: #000;*/
+	font-weight: 700;
+	opacity: 1;
+
+}
