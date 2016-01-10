@@ -114,6 +114,8 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
+  opacity: 0.5;
+  color: white;
 }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -130,6 +132,8 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+  opacity: 1;
+  color: black;
 }
 
 /* Hollow */
@@ -138,7 +142,7 @@
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px #2C3E50;
+  box-shadow: 0 0 1px #fff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -146,13 +150,17 @@
   transition-duration: 0.3s;
   -webkit-transition-property: background;
   transition-property: background;
-  box-shadow: inset 0 0 0 4px black, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px white, 0 0 1px rgba(255, 255, 255, 0.4);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
-  background-color: white;
+  background-color:rgba(255, 255, 255, 0.8);
+  color: black;
   opacity: 1;
-  box-shadow: inset 0 0 0 4px white, 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 4px white, 0 0 1px rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 16px;
+  
 }
 
 /* Underline From Center */
@@ -259,7 +267,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #8BC8DA;
+  background: #2C3E50;
   color: #FFF;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
@@ -492,6 +500,8 @@
 
   background-color:#2C3E50;
   border-color:#324A65;
+  text-align: left;
+  font-weight: 600;
 }
 
 /*.list:hover{
@@ -508,6 +518,6 @@
   opacity: 1;
 }
 
-.menuhover:{
-  color: #FFF;
-}
+/*.menuhover:{
+  background-color: #2C3E50;
+}*/

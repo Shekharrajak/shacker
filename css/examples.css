@@ -74,8 +74,9 @@ p{
  * --------------------------------------- */
  #menu {
 
- 	background-color: white;
+ 	background-color: rgba(255, 255, 255, 0.5);
  	margin-bottom: 0px;
+ 	color: white;
  }
 #menu li {
 	display:inline-block;
@@ -90,21 +91,21 @@ p{
 #menu li.active{
 	background:#2C3E50;
 	/*background: rgba(0,0,0, 0.5);*/
-	color: #fff;
+	color: white;
 }
 #menu li a{
 	text-decoration:none;
-	/*color: #000;*/
+	color: #fff;
 	font-weight: 700;
 	opacity: 1;
 }
 
 #menu li.active a:hover{
-	color: #fff;
+	color: white;
 }
 #menu li:hover{
 	/*background: rgba(255,255,255, 0.8);*/
-	color: #fff;
+	color: black;
 }
 #menu li a,
 #menu li.active a{
@@ -112,7 +113,7 @@ p{
 	/*display:block;*/
 }
 #menu li.active a{
-	color: #fff;
+	color: white;
 }
 #menu{
 	position:fixed;
@@ -129,13 +130,12 @@ p{
 .intro {
 	/*width: 100%;*/
 	
-	font-size: 1.2em;
-	margin-left: 2.5%;
+	font-size: 0.8em;
+	margin-left: 1.0%;
 	
 	margin-right: 5%;
-	line-height: 40px;
-		/*background-color: #8A5454;
-	opacity: 0.5;*/
+	line-height: 25px;
+	font-weight: 700;
 }
 
 /*
@@ -257,10 +257,15 @@ p{
 	color: #444;
 	text-decoration: underline;
 }
-
+#section1 ul{
+	
+}
+#section1 li{
+	
+}
 #section1 p{
-	color: #333;
-	color: rgba(0,0,0,0.3);
+	/*color: #333;
+	color: rgba(0,0,0,0.3);*/
 }
 #section1 img{
 	margin: 20px 0;
@@ -270,11 +275,11 @@ p{
 	position: absolute;
 	
  
-	background-image: url(../img/pt-1.jpg);
+	/*background-image: url(../img/pt-1.jpg);*/
 	
-	/*background-size: 100% 100%;*/
+	background-size: 100% 100%;
 	background-size: 100%;
-            background-color: white; /* in case the video doesn't fit the whole page*/
+            background-color: white;  in case the video doesn't fit the whole page
             
             background-position: center;
             object-fit: cover;
