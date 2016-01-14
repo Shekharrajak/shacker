@@ -13,8 +13,8 @@
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 200px;
     opacity: 0;
     background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
@@ -67,6 +67,7 @@
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+
 }
 
 .portfolio-modal .modal-content h2 {
@@ -120,4 +121,33 @@
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+
+
+body{
+    background-color: #2C3E50;
+}
+
+.portfolio-item img{
+    width: 250px;
+    height: 200px;
+}
+
+.modal-body {
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: left;
+}
+
+.modal-body h2{
+    color: black;
+    
+}
+.modal-body h6{
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    
 }
