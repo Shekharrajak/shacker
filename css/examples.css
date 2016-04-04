@@ -344,8 +344,12 @@ p{
 /* Overwriting fullPage.js tooltip color
 * --------------------------------------- */
 #pp-nav.custom .pp-tooltip{
+<<<<<<< HEAD
 	color: white;
 	
+=======
+	color: #AAA;
+>>>>>>> 6898d604706dfd702d09ae5de9d82b4eabc0d135
 }
 
 

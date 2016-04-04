@@ -545,6 +545,7 @@
         opacity:1;
         color: black;
         background-color:white;
+<<<<<<< HEAD
 }
 
 #section1 img:hover
@@ -555,4 +556,6 @@
         -o-transition: opacity 900ms ease 0.0s;
         transition: opacity 900ms ease 0.0s;
         
+=======
+>>>>>>> 6898d604706dfd702d09ae5de9d82b4eabc0d135
 }

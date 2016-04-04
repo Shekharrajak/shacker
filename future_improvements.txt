@@ -1,5 +1,9 @@
 1.Google nexux effect
+<<<<<<< HEAD
 2.menu bar dropdown
 3.mobile resposnsive
 4. contact us remove
 5. add in about page more contents
+=======
+2.
+>>>>>>> 6898d604706dfd702d09ae5de9d82b4eabc0d135
